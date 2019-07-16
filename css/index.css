@@ -195,6 +195,7 @@ button {
 
 .middle-img {
   margin: 30px 0;
+	max-width: 100%;
 }
 
 .bottom-page {
@@ -299,9 +300,16 @@ section {
  }
 
   .content-1, .content-2, .nav-div, .middle-img,
-  .page, section, footer {
+  .page, section, footer, img, div, body {
     max-width: 100%;
   }
+
+hr {
+	border-right: 0;
+	border-left: 0;
+}
+
+
 
   .content-1, .content-2, .middle-img {
     width: 100%;
@@ -323,18 +331,24 @@ section {
     padding: 10px 45%;
     font-weight: bold;
   }
+	.middle-img {
+	  margin: 30px 0;
+		margin-left: 10px;
+		max-width: 95%;
+	}
+
   address {
     margin: 10px
   }
 
   /*** SERVICES.HTML ***/
 
-  .mid-page, .flexed, section, .page, body, .mid {
+  .mid-page, .flexed, section, .page, body, .mid, img {
     max-width: 500px;
   }
 
   .mid-page, .flexed.bottom, section, flexed.mid, hr {
-    width: 400px;
+    width: 500px;
   }
 
   .flexed.mid {
